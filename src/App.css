@@ -15,7 +15,7 @@ border:1px solid grey;
 margin-top:20px;
 justify-content:space-between;
 padding:0.5rem 1rem;
-border-radius:30px;
+border-radius:10px;
 }
 
 .ques-circle{
@@ -38,6 +38,17 @@ border-radius:30px;
     justify-content: center;
     align-items: center;
     background-color: yellow;
+}
+
+.green-ques-circle {
+  width: 20px;
+  display: flex;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
 }
 
 .visited-ques-circle {
